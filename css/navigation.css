@@ -1,0 +1,15 @@
+
+nav a {
+  color: #F5F5F5;
+  text-decoration: none;
+  margin: 20px;
+}
+
+nav a:hover {
+  border-top: 1px solid #8B008B;
+}
+
+nav a.is-current {
+  color: #8B008B;
+  border-top: 2px solid #8B008B;
+}
