@@ -1,4 +1,3 @@
-
 //	*****************************
 //	Prep...
 //	*****************************
@@ -39,14 +38,14 @@ thisFile = currentFile();
 
 // Step 4: if there's nothing to the right of the last slash, then the current page is
 //	index.html, so manually set it so
-if ( thisFile == "" ) {
+if (thisFile == "") {
 	//NOTICE: you may have to edit the following filename to index.php...
-	thisFile = "index.php"
+	thisFile = "index.php";
 }
 
 // Step 5: check each anchor in the navigation element
 //	(btw - did you code your menu using NAV?)...
-$("nav a").each( function() {
+$("nav a").each(function () {
 
 	// Step 5a: if there's a match...
 	if (this.href.indexOf(thisFile) > 0) {

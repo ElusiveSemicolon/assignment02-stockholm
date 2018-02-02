@@ -1,55 +1,91 @@
+<?php 
 
-<?php include "includes/html-head.inc"; ?>
+$title = "Home";
 
-  <body>
+include "includes/html-head.php"; 
 
-    <!-- Main Header -->
+?>
 
-		<section class="hero is-primary">
-			<!-- Hero head: will stick at the top -->
-			<div class="hero-head">
-				<?php include "includes/main_navbar.inc"; ?>
+<!-- Main Header Ends -->
+
+<section class="content">
+
+	<section class="hero">
+
+		<!-- Hero content: will be in the middle -->
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<h2 class="title is-1">
+					Assignment 2: Team Portfolio 
+				</h2>
+				<div class="subtitle is-2">
+					Team Stockholm
+				</div>
 			</div>
+		</div>
+	</section>
 
-    </section>
+	<div class="container">
 
-		<!-- Main Header Ends -->
+		<div class="columns">
+			<div class="column">
+				<div class="card">
+					<a href="zabaziz.php">
+						<div class="card-image">
+							<figure class="image">
+								<img src="images/zubair.jpg" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-content has-text-centered">
+									<h3 class="title is-4">Zubair Aziz</h3>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<a href="jfazio.php">
+						<div class="card-image">
+							<figure class="image">
+								<img src="images/james.jpg" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-content has-text-centered">
+									<h3 class="title is-4">James Fazio</h3>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<a href="kpollock.php">
+						<div class="card-image">
+							<figure class="image">
+								<img src="images/kyle.jpg" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-content has-text-centered">
+									<h3 class="title is-4">Kyle Pollock</h3>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
 
-    <div class="tile is-ancestor">
-      <div class="tile is-parent">
-        <a href="zabaziz.php">
-          <div class="tile is-child box">
-            <p class="title">Zubair Aziz</p>
-            <figure>
-              <img src="images/face.jpg">
-            </figure>
-          </div>
-        </a>
-      </div>
-      <div class="tile is-parent">
-        <a href="jfazio.php">
-          <div class="tile is-child box">
-            <p class="title">James Fazio</p>
-            <figure>
-              <img src="images/photo.jpg">
-            </figure>
-          </div>
-        </a>
-      </div>
-      <div class="tile is-parent">
-        <a href="kpollock.php">
-          <div class="tile is-child box">
-            <p class="title">Kyle Pollock</p>
-            <figure>
-              <img src="images/kyle.jpg">
-            </figure>
-          </div>
-        </a>
-      </div>
-    </div>
+	</div>
 
-    <?php include "includes/scripts.inc"; ?>
+</section>
 
-  </body>
-
-</html>
+<?php include "includes/footer.php"; ?>

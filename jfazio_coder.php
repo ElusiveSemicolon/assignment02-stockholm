@@ -1,11 +1,13 @@
 
-<?php include "includes/html-head.inc"; ?>
+<?php 
 
-	<body>
+$title = "James' Role";
 
-		<!-- Main Header -->
+include "includes/html-head.php"; 
 
-		<section class="hero is-primary">
+?>
+
+		<section class="hero">
 			<!-- Hero head: will stick at the top -->
 			<div class="hero-head">
 				<?php include "includes/main_navbar.inc"; ?>
@@ -14,20 +16,17 @@
 			<!-- Hero content: will be in the middle -->
 			<div class="hero-body">
 				<div class="container has-text-centered">
-					<h1 class="title">
-						James Fazio
-					</h1>
-					<h2 class="subtitle">
+				<h2 class="title is-1">
+					The Coder
+				</h2>
+				<h3 class="title">
+					James Fazio
+				</h3>
+					<div class="subtitle">
 						Computer Science '18
-					</h2>
+					</div>
 					<figure>
-						<img class="profile-pic" src="images/photo.jpg" alt="James Fazio">
-					</figure>
-					<figure>
-						<img class="profile-pic" src="images/ump.jpg" alt="Umpire">
-					</figure>
-					<figure>
-						<img class="profile-pic" src="images/apple.jpg" alt="Apple">
+						<img class="profile-pic" src="images/james.jpg" alt="James Fazio">
 					</figure>
 				</div>
 			</div>
@@ -47,12 +46,11 @@
 
 		<!-- Main Header Ends -->
 
-		<section class="hero">
-			<div class="hero-body">
+		<section class="content">
 				<div class="container">
-					<h1 class="title">
+					<h2 class="title">
 						Requirements
-					</h1>
+					</h2>
 					<ul>
 
 						<li class="role">Responsible for everything the user interacts with, from page load to every click and scroll</li>
@@ -71,16 +69,10 @@
 						<li class="role">Leads team collaboration (Github) and manages the file structure</li>
 
 					</ul>
-				</div>
-			</div>
-		</section>
-
-		<section class="hero">
-			<div class="hero-body">
-				<div class="container">
-					<h1 class="title">
+				
+					<h2 class="title">
 						Why James is suited for this role
-					</h1>
+					</h2>
 					<ul>
 
 						<li class="role">I am fluent in multiple coding laguanges, including HTML, CSS, Java, Python, and MYSQL.</li>
@@ -92,16 +84,10 @@
 						<li class="role">I am not the world's greatest designer or artist.</li>
 
 					</ul>
-				</div>
-			</div>
-		</section>
-
-		<section class="hero">
-			<div class="hero-body">
-				<div class="container">
-					<h1 class="title">
+				
+					<h2 class="title">
 						Prior Experience
-					</h1>
+					</h2>
 					<ul>
 
 						<li class="role">CSC 170 – Multi-page frontend website, complete with styling and layout</li>
@@ -114,11 +100,5 @@
 
 					</ul>
 				</div>
-			</div>
-		</section>
 
-		<?php include "includes/scripts.inc"; ?>
-
-	</body>
-
-</html>
+		<?php include "includes/footer.php"; ?>

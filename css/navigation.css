@@ -1,15 +1,17 @@
-
-nav a {
-  color: #F5F5F5;
-  text-decoration: none;
-  margin: 20px;
-}
-
-nav a:hover {
-  border-top: 1px solid #8B008B;
+.navbar-item {
+	color: #F5F5F5;
+	text-decoration: none;
 }
 
 nav a.is-current {
-  color: #8B008B;
-  border-top: 2px solid #8B008B;
+	color: #9dd6e4;
+	border-top: 2px solid #578894;
+}
+
+.navbar {
+	background-color: #578894;
+}
+
+.navbar-menu {
+	background-color: #578894;
 }
