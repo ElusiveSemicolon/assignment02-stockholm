@@ -81,6 +81,9 @@ include "includes/html-head.php";
 			<li>The team is coordinated and effective; no complaints</li>
 		</ul>
 	</div>
+
+	<?php include "includes/scroll-to-top.php"; ?>
+	
 </section>
 
 <?php include "includes/footer.php"; ?>

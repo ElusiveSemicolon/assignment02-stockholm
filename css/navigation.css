@@ -10,8 +10,33 @@ nav a.is-current {
 
 .navbar {
 	background-color: #578894;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1;
 }
 
 .navbar-menu {
 	background-color: #578894;
 }
+
+nav {
+	opacity: 0.95;
+}
+
+.scroll {
+	background-color: #000;
+	opacity: 0.4;
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	border-radius: 50%;
+	border: none;
+  }
+  .scroll:hover {
+	opacity: 0.9;
+  }

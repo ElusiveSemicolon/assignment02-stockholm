@@ -72,6 +72,9 @@ include "includes/html-head.php";
 				<li>Styles (CSS) meet industry standards and best practices including W3C CSS validation within reason</li>
 			</ul>
 		</div>
+
+		<?php include "includes/scroll-to-top.php"; ?>
+		
 	</section>
 
 	<?php include "includes/footer.php"; ?>

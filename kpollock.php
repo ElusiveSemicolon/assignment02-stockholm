@@ -124,6 +124,9 @@ include "includes/html-head.php";
 			<li>Annual Diversity Essay 3rd Place Awardee</li>
 		</ul>
 	</div>
+
+	<?php include "includes/scroll-to-top.php"; ?>
+	
 </section>
 
 <?php include "includes/footer.php"; ?>

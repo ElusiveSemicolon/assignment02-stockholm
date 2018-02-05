@@ -1,5 +1,5 @@
 <!-- Global scripts -->
-
+<script src="js/scripts.js"></script>
 
 <!-- jquery (required for menu-highlighter.js) -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>

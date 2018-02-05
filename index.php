@@ -16,7 +16,7 @@ include "includes/html-head.php";
 		<div class="hero-body">
 			<div class="container has-text-centered">
 				<h2 class="title is-1">
-					Assignment 2: Team Portfolio 
+					Assignment 2: Team Portfolio
 				</h2>
 				<div class="subtitle is-2">
 					Team Stockholm
@@ -29,46 +29,10 @@ include "includes/html-head.php";
 
 		<div class="columns">
 			<div class="column">
-				<div class="card">
-					<a href="zabaziz.php">
-						<div class="card-image">
-							<figure class="image">
-								<img src="images/zubair.jpg" alt="Placeholder image">
-							</figure>
-						</div>
-						<div class="card-content">
-							<div class="media">
-								<div class="media-content has-text-centered">
-									<h3 class="title is-4">Zubair Aziz</h3>
-								</div>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="column">
-				<div class="card">
-					<a href="jfazio.php">
-						<div class="card-image">
-							<figure class="image">
-								<img src="images/james.jpg" alt="Placeholder image">
-							</figure>
-						</div>
-						<div class="card-content">
-							<div class="media">
-								<div class="media-content has-text-centered">
-									<h3 class="title is-4">James Fazio</h3>
-								</div>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="column">
-				<div class="card">
+				<div class="card face-card">
 					<a href="kpollock.php">
 						<div class="card-image">
-							<figure class="image">
+							<figure class="image is-3by4">
 								<img src="images/kyle.jpg" alt="Placeholder image">
 							</figure>
 						</div>
@@ -76,6 +40,48 @@ include "includes/html-head.php";
 							<div class="media">
 								<div class="media-content has-text-centered">
 									<h3 class="title is-4">Kyle Pollock</h3>
+									<div class="subtitle">The Information Architect</div>
+									<i class="fas fa-info-circle subtitle is-1"></i>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card face-card">
+					<a href="zabaziz.php">
+						<div class="card-image">
+							<figure class="image is-3by4">
+								<img src="images/zubair.jpg" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-content has-text-centered">
+									<h3 class="title is-4">Zubair Aziz</h3>
+									<div class="subtitle">The Design Artist</div>
+									<i class="fas fa-paint-brush subtitle is-1"></i>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card face-card">
+					<a href="jfazio.php">
+						<div class="card-image">
+							<figure class="image is-3by4">
+								<img src="images/james.jpg" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-content has-text-centered">
+									<h3 class="title is-4">James Fazio</h3>
+									<div class="subtitle">The Coder</div>
+									<i class="fas fa-code subtitle is-1"></i>
 								</div>
 							</div>
 						</div>
@@ -85,6 +91,8 @@ include "includes/html-head.php";
 		</div>
 
 	</div>
+
+	<?php include "includes/scroll-to-top.php"; ?>
 
 </section>
 

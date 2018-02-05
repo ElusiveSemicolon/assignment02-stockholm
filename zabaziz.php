@@ -105,6 +105,9 @@ include "includes/html-head.php";
 			ever since.
 		</p>
 	</div>
+
+	<?php include "includes/scroll-to-top.php"; ?>
+	
 </section>
 
 <?php include "includes/footer.php"; ?>
