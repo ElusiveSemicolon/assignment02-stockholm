@@ -1,9 +1,9 @@
 
-<?php 
+<?php
 
 $title = "James' Role";
 
-include "includes/html-head.php"; 
+include "includes/html-head.php";
 
 ?>
 
@@ -49,7 +49,7 @@ include "includes/html-head.php";
 		<section class="content">
 				<div class="container">
 					<h2 class="title">
-						Requirements
+						Responsibilities
 					</h2>
 					<ul>
 
@@ -69,36 +69,22 @@ include "includes/html-head.php";
 						<li class="role">Leads team collaboration (Github) and manages the file structure</li>
 
 					</ul>
-				
+
 					<h2 class="title">
-						Why James is suited for this role
+						Rubric
 					</h2>
 					<ul>
 
-						<li class="role">I am fluent in multiple coding laguanges, including HTML, CSS, Java, Python, and MYSQL.</li>
+						<li class="role">No interoperability problems</li>
 
-						<li class="role">My career goal is to become a software or web engineer and developer.</li>
+						<li class="role">The behavior layer (interactions) is coded in JavaScript primarily (may include certain CSS3 interactions) so it adds value to the structure and presentation layers</li>
 
-						<li class="role">I have solid backend experience form CSC 210, taken last semester.</li>
+						<li class="role">"Page weight" is not excessive, and load time and on-page operations work as expected; includes optimization of images, web fonts, and JavaScript plugins</li>
 
-						<li class="role">I am not the world's greatest designer or artist.</li>
-
-					</ul>
-				
-					<h2 class="title">
-						Prior Experience
-					</h2>
-					<ul>
-
-						<li class="role">CSC 170 – Multi-page frontend website, complete with styling and layout</li>
-
-						<li class="role">CSC 171 – Numerous Java programs, from utilties to games</li>
-
-						<li class="role">CSC 172 – Knowledge of data structures for backend coding</li>
-
-						<li class="role">CSC 210 – Backend knowledge and use of databases; login systems; etc.</li>
+						<li class="role">JavaScript implementation meets industry standards and best practices</li>
 
 					</ul>
+
 				</div>
 
 				<?php include "includes/scroll-to-top.php"; ?>

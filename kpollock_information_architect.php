@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 $title = "Kyle's Role";
 
-include "includes/html-head.php"; 
+include "includes/html-head.php";
 
 ?>
 
@@ -51,18 +51,6 @@ include "includes/html-head.php";
 
 	<div class="container">
 		<h2 class="title is-2">
-			Personal Summary
-		</h2>
-		<p>
-			I have a good amount of personal experience related to the Information Architect role. Most recently was my group project
-			in CSC 210, Web Programming. My primary role in the group was that of a project manager. I managed the project overview,
-			structure, and Github repository, restructuring as necessary, and taught my teammates how to use Github. I also managed
-			all communication within the group, as well as between TA's and the Professor to set up meetings and presentations. I
-			really enjoyed working in this role!
-		</p>
-
-
-		<h2 class="title is-2">
 			Responsibilities
 		</h2>
 		<ul>
@@ -83,7 +71,7 @@ include "includes/html-head.php";
 	</div>
 
 	<?php include "includes/scroll-to-top.php"; ?>
-	
+
 </section>
 
 <?php include "includes/footer.php"; ?>
