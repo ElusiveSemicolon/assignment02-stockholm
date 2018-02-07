@@ -50,7 +50,7 @@ include "includes/html-head.php";
 <section class="content">
 	<div class="container">
 		<h2 class="title is-2">
-			Education
+			Academics
 		</h2>
 		<p>
 			I am currently a junior, anticipated to graduate in May, 2019. I started off my first year in college majoring in Economics.
@@ -66,7 +66,7 @@ include "includes/html-head.php";
 		</p>
 
 		<h2 class="title is-2">
-			Work Experience
+			Experience
 		</h2>
 		<p>
 			I currently work for IT Services on campus, working as an IT Consultant. Here, I assist with network registration and troubleshoot

@@ -50,6 +50,17 @@ include "includes/html-head.php";
 <section class="content">
 	<div class="container">
 		<h2 class="title is-2">
+			Academics
+		</h2>
+		<p>
+			As a senior in computer science graduating in the Spring, I am currently taking four CS courses in order to complete my degree.
+			Among my most highly-anticipated are CSC 242, Artificial Intelligence, and CSC 174, Advanced Front-End Web Development.
+			I have always been interested in AI and the way that computers can think fo themselves, but my true interest was sparked
+			by the class I took my senior year of high school. It was a class based on current events and current technology, and
+			my interest in that class directly translated into my college career.
+		</p>
+
+		<h2 class="title is-2">
 			Former Apple Specialist
 		</h2>
 		<p>
@@ -81,17 +92,6 @@ include "includes/html-head.php";
 			officiating varsity-and-college-level baseball for the 2017 season, and I will be participating in my second year of both
 			levels beginning this Spring. I plan to continue in the organization for as long as I can, and I hope to increase the
 			number of college-level games that I am able to be a part of as my experience grows.
-		</p>
-
-		<h2 class="title is-2">
-			Academics
-		</h2>
-		<p>
-			As a senior in computer science graduating in the Spring, I am currently taking four CS courses in order to complete my degree.
-			Among my most highly-anticipated are CSC 242, Artificial Intelligence, and CSC 174, Advanced Front-End Web Development.
-			I have always been interested in AI and the way that computers can think fo themselves, but my true interest was sparked
-			by the class I took my senior year of high school. It was a class based on current events and current technology, and
-			my interest in that class directly translated into my college career.
 		</p>
 
 		<p>
@@ -139,7 +139,7 @@ include "includes/html-head.php";
 	</div>
 
 	<?php include "includes/scroll-to-top.php"; ?>
-	
+
 </section>
 
 <?php include "includes/footer.php"; ?>

@@ -50,6 +50,20 @@ include "includes/html-head.php";
 <section class="content">
 	<div class="container">
 		<h2 class="title is-2">
+			Academics
+		</h2>
+		<p>
+			I began my undergraduate career at the University of Rochester studying genetics with a focus in premedical studies. The
+			second semester of my freshman year, I went out on a limb and took CSC171 (Introduction to Java). I knew that the class
+			would be difficult, especially since I had absolutely zero experience in programming, but it ended up being the best choice
+			I made in college! Starting my sophomore year, I switched to a computer science major and have not looked back since!
+			I dived into the major, taking as many courses as I could possibly take in a given semester in order to keep up with the
+			other students in my class and graduate on time. To this day, I am so glad that I ended up switching majors and my career
+			trajectory. Ever since I wrote my first “Hello, World!” program, I have been completely sold on computer science as both
+			a career, pastime, and continuous education.
+		</p>
+
+		<h2 class="title is-2">
 			LinkedIn Summary
 		</h2>
 		<p>
@@ -62,20 +76,6 @@ include "includes/html-head.php";
 			come together in the form of functioning applications! I love talking about anything new and exciting in research or technology.
 			Please feel free to send me a message here on LinkedIn or my University of Rochester email: kpolloc3@u.rochester.edu Specialties:
 			Web and mobile application development, market research, statistics, and financial accounting and investment.
-		</p>
-
-		<h2 class="title is-2">
-			Academic History
-		</h2>
-		<p>
-			I began my undergraduate career at the University of Rochester studying genetics with a focus in premedical studies. The
-			second semester of my freshman year, I went out on a limb and took CSC171 (Introduction to Java). I knew that the class
-			would be difficult, especially since I had absolutely zero experience in programming, but it ended up being the best choice
-			I made in college! Starting my sophomore year, I switched to a computer science major and have not looked back since!
-			I dived into the major, taking as many courses as I could possibly take in a given semester in order to keep up with the
-			other students in my class and graduate on time. To this day, I am so glad that I ended up switching majors and my career
-			trajectory. Ever since I wrote my first “Hello, World!” program, I have been completely sold on computer science as both
-			a career, pastime, and continuous education.
 		</p>
 
 		<h2 class="title is-2">
@@ -126,7 +126,7 @@ include "includes/html-head.php";
 	</div>
 
 	<?php include "includes/scroll-to-top.php"; ?>
-	
+
 </section>
 
 <?php include "includes/footer.php"; ?>
