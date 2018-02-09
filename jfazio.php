@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 $title = "James";
 
-include "includes/html-head.php"; 
+include "includes/html-head.php";
 
 ?>
 
@@ -61,8 +61,12 @@ include "includes/html-head.php";
 		</p>
 
 		<h2 class="title is-2">
-			Former Apple Specialist
+			Experience
 		</h2>
+
+		<h3 class="title is-3">
+			Former Apple Specialist
+		</h3>
 		<p>
 			From November of 2015 through August of 2017, I worked as a Specialist at an Apple Retail Store. As a self-proclaimed Apple
 			enthusiast, I had always wanted to work for the company in any capacity and applied for a retail spot when I turned 18.
@@ -80,9 +84,9 @@ include "includes/html-head.php";
 			in the Spring and pursuing a position in software or web engineering.
 		</p>
 
-		<h2 class="title is-2">
+		<h3 class="title is-3">
 			Certified Baseball Umpire
-		</h2>
+		</h3>
 		<p>
 			I also currently hold the position of Certified High School Baseball Umpire in the New York State Base Umpires association,
 			through the Genesee Valley chapter. I have served as an official for school-sponsored and tournament baseball since March
@@ -115,8 +119,8 @@ include "includes/html-head.php";
 		</p>
 
 		<h2 class="title is-2">
-			Projects
-			</h1>
+			Miscellaneous
+		</h2>
 			<p>
 				Over the course of my CS career, I have work on quite a few class projects. The one project that stands out to me is my final
 				project from CSC 171. Tasked with the choice of picking either a rocket driving game or basket catch game, our assignment

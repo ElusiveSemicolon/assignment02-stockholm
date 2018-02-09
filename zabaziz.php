@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 $title = "Zubair";
 
-include "includes/html-head.php"; 
+include "includes/html-head.php";
 
 ?>
 
@@ -85,7 +85,7 @@ include "includes/html-head.php";
 		</p>
 
 		<h2 class="title is-2">
-			Extra-curricular
+			Miscellaneous
 		</h2>
 		<p>
 			I'm involved in some extra-curricular activities such as Alpha Kappa Psi, the professional business fraternity; and Grass
@@ -107,7 +107,7 @@ include "includes/html-head.php";
 	</div>
 
 	<?php include "includes/scroll-to-top.php"; ?>
-	
+
 </section>
 
 <?php include "includes/footer.php"; ?>

@@ -1,10 +1,11 @@
-<?php 
+<?php
 
 $title = "Kyle";
 
-include "includes/html-head.php"; 
+include "includes/html-head.php";
 
 ?>
+
 <!-- Main Header -->
 
 <section class="hero">
@@ -64,21 +65,6 @@ include "includes/html-head.php";
 		</p>
 
 		<h2 class="title is-2">
-			LinkedIn Summary
-		</h2>
-		<p>
-			I’m a total nerd. And, like most nerds, I played a lot of video games as a kid. I eventually got bored of playing the same
-			games, so I started to modify the code behind my games: adding to them, perfecting them. I didn't know it then, but that
-			was just the start of my love of programming. I moved on from just coding video games to learning multiple programming
-			languages and coding more and more, both in the classroom and beyond. Most recently, I have been applying my knowledge
-			of object oriented programming and MVC design pattern to create mobile applications, both natively with Android Studio
-			and Xcode, as well as hybridized with Angular and the Ionic framework. It is so exciting to see everything I have learned
-			come together in the form of functioning applications! I love talking about anything new and exciting in research or technology.
-			Please feel free to send me a message here on LinkedIn or my University of Rochester email: kpolloc3@u.rochester.edu Specialties:
-			Web and mobile application development, market research, statistics, and financial accounting and investment.
-		</p>
-
-		<h2 class="title is-2">
 			Experience
 		</h2>
 		<h3>Founder & Chief Software Architect at Espre Studios, LLC</h3>
@@ -99,23 +85,38 @@ include "includes/html-head.php";
 		</ul>
 
 		<h2 class="title is-2">
-			Education
+			Miscellaneous
 		</h2>
-		<h3>University of Rochester</h3>
+		<p>
+			I’m a total nerd. And, like most nerds, I played a lot of video games as a kid. I eventually got bored of playing the same
+			games, so I started to modify the code behind my games: adding to them, perfecting them. I didn't know it then, but that
+			was just the start of my love of programming. I moved on from just coding video games to learning multiple programming
+			languages and coding more and more, both in the classroom and beyond. Most recently, I have been applying my knowledge
+			of object oriented programming and MVC design pattern to create mobile applications, both natively with Android Studio
+			and Xcode, as well as hybridized with Angular and the Ionic framework. It is so exciting to see everything I have learned
+			come together in the form of functioning applications! I love talking about anything new and exciting in research or technology.
+			Please feel free to send me a message here on LinkedIn or my University of Rochester email: kpolloc3@u.rochester.edu Specialties:
+			Web and mobile application development, market research, statistics, and financial accounting and investment.
+		</p>
+
+		<h3 class="title is-3">
+			Education
+		</h3>
+		<h4>University of Rochester</h4>
 		<em>2014 - 2018</em>
 		<ul>
 			<li>Bachelor of Arts - BA, Computer Science</li>
 			<li>Minor in Chinese Language and Culture</li>
 		</ul>
 
-		<h3>University of Rochester - Simon Business School</h3>
+		<h4>University of Rochester - Simon Business School</h4>
 		<ul>
 			<li>Business Accounting and Finance</li>
 		</ul>
 
-		<h2 class="title is-2">
+		<h3 class="title is-3">
 			Honors and Awards
-		</h2>
+		</h3>
 		<ul>
 			<li>Superior Rating for Independent Research Project</li>
 			<li>Wilder Trustee Merit Scholarship Awardee</li>
