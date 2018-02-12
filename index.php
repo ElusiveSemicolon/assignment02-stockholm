@@ -23,13 +23,13 @@ include "includes/html-head.php";
 				</div>
 				<div id="container-slides">
 					<div class="slide showing">
-						<img src="images/kyle.jpg">
+						<img src="images/kyle.jpg" alt="Kyle Pollock">
 					</div>
 					<div class="slide">
-						<img src="images/zubair.jpg">
+						<img src="images/zubair.jpg" alt="Zubair Aziz">
 					</div>
 					<div class="slide">
-						<img src="images/james.jpg">
+						<img src="images/james.jpg" alt="James Fazio">
 					</div>
 				</div>
 			</div>
