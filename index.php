@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 $title = "Home";
 
-include "includes/html-head.php"; 
+include "includes/html-head.php";
 
 ?>
 
@@ -20,6 +20,17 @@ include "includes/html-head.php";
 				</h2>
 				<div class="subtitle is-2">
 					Team Stockholm
+				</div>
+				<div id="container-slides">
+					<div class="slide showing">
+						<img src="images/kyle.jpg">
+					</div>
+					<div class="slide">
+						<img src="images/zubair.jpg">
+					</div>
+					<div class="slide">
+						<img src="images/james.jpg">
+					</div>
 				</div>
 			</div>
 		</div>

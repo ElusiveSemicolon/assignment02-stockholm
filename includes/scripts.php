@@ -9,3 +9,6 @@
 
 <!-- toggle for nav menu burger (on mobile devices) -->
 <script src="js/menu-toggle.js"></script>
+
+<!-- slideshow -->
+<script src="js/slideshow.js"></script>
